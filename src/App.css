@@ -1,1 +1,143 @@
-/* Styles for book_list*/
+.books{
+  width:1280px;
+  height:2000px;
+  background-color:darkblue;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.caption{
+  color:white;
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
+/* Style for form*/
+
+.new_book {
+ width:1280px;
+ height:200px;
+ position: absolute;
+ top:150px;
+}
+
+
+.addBook_title {
+ width:800px;
+ height: 40px;
+ position: absolute;
+ top:20px;
+ left:60px;
+ border:none;
+ box-shadow:3px 3px 10px lightgrey;
+}
+
+
+.addBook_description{
+  width:800px;
+  position: absolute;
+  top:80px;
+  left:60px;
+  border: none;
+  box-shadow:3px 3px 10px lightgrey;
+}
+
+
+.addBook_btn{
+    width:150px;
+    height:50px;
+    position: absolute;
+    bottom:130px;
+    right: 60px;
+    border:none;
+    border-radius: 5px;
+    background-color:lightskyblue;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+
+.removeAllBook_btn{
+  width:150px;
+  height:50px;
+  position: absolute;
+  bottom:40px;
+  right: 60px;
+  border:none;
+  border-radius: 5px;
+  background-color: fuchsia;
+  font-size:15px;
+  font-weight: bold;
+}
+
+
+.statistic_board{
+  width:250px;
+  height:30px;
+  font-size:20px;
+  color:white;
+  position: absolute;
+  top:110px;
+  left:60px;
+
+}
+
+
+.statistic_board span{
+  margin-left:12px;
+}
+
+
+.bookList{
+  width:1150px;
+  height:700px;
+  position:absolute;
+  top:350px;
+  left:25px;
+}
+
+.book{
+  list-style-type: none;
+  margin-bottom:30px;
+  font-size:17px;
+  background-color: white;
+  padding: 10px;
+  box-shadow:3px 3px 10px lightgrey;
+}
+
+.book_title{
+  font-weight: bold;
+  color:darkred
+}
+
+.book_description{
+  color:darkblue;
+  margin-top: 10px;
+
+}
+
+
+
+.delete_book{
+  width:70px;
+  height:30px;
+  background:red;
+  color:white;
+  border:none;
+  border-radius: 5px;
+
+}
+
+
+.check_book{
+  width:30px;
+  height:30px;
+  
+}
+
